@@ -1,0 +1,54 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question": "What is Python?",
+      "answer": "Python is a high-level, interpreted programming language known for its simplicity and readability. It's widely used in web development, data science, artificial intelligence, and automation."
+    },
+    {
+      "id": 2,
+      "question": "How do I install Python?",
+      "answer": "You can download Python from python.org. Choose your operating system (Windows, macOS, or Linux) and follow the installation instructions. Make sure to check 'Add Python to PATH' during installation on Windows."
+    },
+    {
+      "id": 3,
+      "question": "What is a virtual environment?",
+      "answer": "A virtual environment is an isolated Python environment that allows you to install packages for a specific project without affecting your system Python. Create one using: python -m venv env_name"
+    },
+    {
+      "id": 4,
+      "question": "How do I install packages?",
+      "answer": "Use pip (Python's package manager) to install packages. Run: pip install package_name. For multiple packages: pip install package1 package2 package3"
+    },
+    {
+      "id": 5,
+      "question": "What is a list in Python?",
+      "answer": "A list is a collection of items in Python, ordered and changeable. Lists are created using square brackets: my_list = [1, 2, 3, 'hello']. You can access items by index: my_list[0]"
+    },
+    {
+      "id": 6,
+      "question": "What is a dictionary in Python?",
+      "answer": "A dictionary is an unordered collection of key-value pairs. Dictionaries are created using curly braces: my_dict = {'name': 'John', 'age': 30}. Access values using keys: my_dict['name']"
+    },
+    {
+      "id": 7,
+      "question": "How do I handle errors in Python?",
+      "answer": "Use try-except blocks to handle errors. Syntax: try: (risky code) except ErrorType: (handle error). You can also use finally: (cleanup code) to run code regardless of errors."
+    },
+    {
+      "id": 8,
+      "question": "What is a function in Python?",
+      "answer": "A function is a reusable block of code. Define functions using 'def': def greet(name): return f'Hello, {name}'. Call functions with parentheses: greet('Alice')"
+    },
+    {
+      "id": 9,
+      "question": "How do I read a file in Python?",
+      "answer": "Use the open() function: with open('file.txt', 'r') as file: content = file.read(). The 'with' statement automatically closes the file. You can also use readlines() for line-by-line reading."
+    },
+    {
+      "id": 10,
+      "question": "What are decorators in Python?",
+      "answer": "Decorators are functions that modify other functions. Use @decorator_name before a function definition. Common examples: @staticmethod, @classmethod, @property. Decorators add functionality without changing the original function."
+    }
+  ]
+}
