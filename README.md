@@ -1,5 +1,6 @@
 # FAQ Chatbot - Brief Explanation
 
+
 ## **What is a FAQ Chatbot?**
 
 A FAQ Chatbot is a **conversational AI system** that answers user questions by retrieving relevant FAQ (Frequently Asked Questions) from a database and generating natural responses.
